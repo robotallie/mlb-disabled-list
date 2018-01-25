@@ -75,3 +75,5 @@ The data was scraped from two sources:
 * baseball-injury-prediction.ipynb
 
 # Model Pipeline & Evaluation
+* MLB-disabled-list-predictions.ipynb : Contains all of the classifiers for the predictions but no individual demographic info for starting lineups.
+* MLB-model-2-disabled-list-predictions.ipynb : GradientBoostingClassifier after adding in the debut dates of the players into gamelogs. Not a significant improvement, suprisingly! Need to incorporate data on past Disabled List placements, of course.
